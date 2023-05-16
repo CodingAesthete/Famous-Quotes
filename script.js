@@ -11,7 +11,7 @@
             count = 1;
             contentRotator();
           })
-        })
+        }, 7000)
       }
       else {
         setTimeout( function () {
@@ -19,7 +19,7 @@
             count++;
             contentRotator();
           })
-        })
+        }, 7000)
       }
     });
   }
